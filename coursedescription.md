@@ -16,24 +16,25 @@ This course is a general introduction to computer systems. You will learn how co
 
 ## Lectures
 
-    * Mondays at 13-15 in St UP1, DIKU.
-    * Wednesdays at 10-12 in ST UP1, DIKU.
-    * Instructors: Michael Kirkedal Thomsen (instructor-in-charge), Finn Schirmer Andersen, Troels Henriksen, and Vivek Shan.
+ * Mondays at 13-15 in St UP1, DIKU.
+ * Wednesdays at 10-12 in ST UP1, DIKU.
+ * Instructors: Michael Kirkedal Thomsen (instructor-in-charge), Finn Schirmer Andersen, Troels Henriksen, and Vivek Shan.
 
 ## Exercises
 
-    * Mondays 15-17
-    * Wednesdays 13-16
-    * Teaching assistants:  Minh Duc Tran, Troels Korreman Nielsen, Kristian Bøjer Andreasen, Ludvig Karstens, Jeppe Werner Laursen, Alex Bruun Hemmingsen, Jens Kanstrup Larsen.
-
+ * Mondays 15-17
+ * Wednesdays 13-16
+ * Teaching assistants:  Minh Duc Tran, Troels Korreman Nielsen, Kristian Bøjer Andreasen, Ludvig Karstens, Jeppe Werner Laursen, Alex Bruun Hemmingsen, Jens Kanstrup Larsen.
 
 We do still no know the location of the exercises. Also information about creation of teams will be posted at a later time.
 
 ## Study ambassadors and cafés
+
 On most Fridays from 13 to 15 there will be study cafés in which you can get help with the material and assignments. The cafés will be serviced by the Study Ambassadors Jeppe Werner Laursen and Kristian Bøjer Andreasen.
 
 ## Teaching Material
- * [BOH] Computer Systems: A programmer's perspective, Randal E. Bryant and David R. O'Hallaron, Pearson, 3rd and Global Edition, ISBN 13: 978-1292101767.
+
+* [BOH] Computer Systems: A programmer's perspective, Randal E. Bryant and David R. O'Hallaron, Pearson, 3rd and Global Edition, ISBN 13: 978-1292101767.
  * [KR] Computer Networking: A Top-Down Approach, James F. Kurose and Keith W. Ross, Pearson, 7th and Global Edition, ISBN 13: 978-1-292-15359-9 (This book will not be used before December).
  * [JG] Modern C, Jens Gustedt, April 11, 2017, http://icube-icps.unistra.fr/img_auth.php/d/db/ModernC.pdf.
  * Some notes and book chapters that will be made available through the detailed course schedule.
@@ -53,9 +54,8 @@ We will later publish example sets based on the previous exam iteration.
 
 There are 8 assignment in total during the course with deadline roughly every second week (expected at Sundays at 23:59) with the following deadlines.
 
-+------------------------------------------------------+
 |                                  | Expected deadline |
-+------------------------------------------------------+
+| ---------------------------------|-------------------|
 | A0: Getting started with file(1) |            09 Sep |
 | A1: file(1) - Unicode            |            16 Sep |
 | A2: Simulering af x86 delmængde  |            30 Sep |
@@ -64,7 +64,6 @@ There are 8 assignment in total during the course with deadline roughly every se
 | A5: Concurrent Programming       |            02 Dec |
 | A6: Computer Networking - 1      |            16 Dec |
 | A7: Computer Networking - 2      |            06 Jan |
-+------------------------------------------------------+
 
 The assignments will be graded with points from 0 to 4 and it is not possible to re-handin any of the assignments.
 
@@ -77,15 +76,13 @@ To qualify for the exam you are required to achieve at least 50 % of the total n
 Furthermore, we will require that you a reasonable understanding of all parts (ARK, OS, CN) of the assignments. This is firstly interpreted as achieving points at least 40 % points in each the of topics. To optimise your understanding of the course, and since all assignments are in the syllabus, we encourage you to work with and hand in all sets.
 
 Mapping of topics to assignments:
-+--------------------------------------------------------------+
 |                      | A0 | A1 | A2 | A3 | A4 | A5 | A6 | A7 |
-+--------------------------------------------------------------+
+|----------------------|----|----|----|----|----|----|----|----|
 | Machine architecture |    |    |  X |  X |    |    |    |    |
-+--------------------------------------------------------------+
+|----------------------|----|----|----|----|----|----|----|----|
 | Operating System     |    |    |    |    |  X |  X |    |    |
-+--------------------------------------------------------------+
+|----------------------|----|----|----|----|----|----|----|----|
 | Computer network     |    |    |    |    |    |    |  X |  X |
-+--------------------------------------------------------------+
 
 The rule about 40 % of points for assignments in each topic, is included to make sure that you will uphold the learning goals for the course. We will teach you about many different abstractions and you should learn something about all of them. Without this rule you could attend the exam without e.g. learning anything about computer networks by getting enough points in the beginning of the course. The 40 % is chosen as it should be "easier" than the general rule of 50 %; it will therefore be set to 3 of the possible 8 points.
 
