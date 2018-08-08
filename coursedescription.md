@@ -9,34 +9,35 @@ This course is a general introduction to computer systems. You will learn how co
  * Week 43-45: Operating systems
  * Week 46: No activities (reexam week)
  * Week 47-48: Operating systems cont.
- * Week 49-51: Computer networks and encryption
+ * Week 49-51: Computer networks
  * Week 52: Christmas vacation
- * Week 1-2: Computer networks cont.
- * Week 3: 4 hour written exam (Friday, Jan 19)
+ * Week 1-2: Computer networks cont. and encryption
+ * Week 3: Exam preparation and question hour
+ * Week 4: 4 hour written exam (Friday, Jan 19)
 
 ## Lectures
 
- * Mondays at 13-15 in St UP1, DIKU.
- * Wednesdays at 10-12 in ST UP1, DIKU.
- * Instructors: Michael Kirkedal Thomsen (instructor-in-charge), Finn Schirmer Andersen, Troels Henriksen, and Vivek Shan.
+ * Mondays at 13-15 in St UP1, DIKU
+ * Wednesdays at 10-12 in St UP1, DIKU
+ * Instructors: Michael Kirkedal Thomsen (instructor-in-charge), Finn Schirmer Andersen, Troels Henriksen, and Vivek Shan
 
 ## Exercises
 
  * Mondays 15-17
  * Wednesdays 13-16
- * Teaching assistants:  Minh Duc Tran, Troels Korreman Nielsen, Kristian Bøjer Andreasen, Ludvig Karstens, Jeppe Werner Laursen, Alex Bruun Hemmingsen, Jens Kanstrup Larsen.
+ * Teaching assistants:  Minh Duc Tran, Troels Korreman Nielsen, Kristian Bøjer Andreasen, Ludvig Karstens, Jeppe Werner Laursen, Alex Bruun Hemmingsen, Jens Kanstrup Larsen
 
-We do still no know the location of the exercises. Also information about creation of teams will be posted at a later time.
+We do still not know the location of the exercises sessions. Also information about creation of teams will be posted at a later time.
 
 ## Study ambassadors and cafés
 
-On most Fridays from 13 to 15 there will be study cafés in which you can get help with the material and assignments. The cafés will be serviced by the Study Ambassadors Jeppe Werner Laursen and Kristian Bøjer Andreasen.
+On most Fridays from 13 to 15 there will be study cafés in which you can get help with the material and assignments. The cafés will be serviced by the Study Ambassadors: Jeppe Werner Laursen and Kristian Bøjer Andreasen.
 
 ## Teaching Material
 
-* [BOH] Computer Systems: A programmer's perspective, Randal E. Bryant and David R. O'Hallaron, Pearson, 3rd and Global Edition, ISBN 13: 978-1292101767.
+ * [BOH] Computer Systems: A programmer's perspective, Randal E. Bryant and David R. O'Hallaron, Pearson, 3rd and Global Edition, ISBN 13: 978-1292101767.
  * [KR] Computer Networking: A Top-Down Approach, James F. Kurose and Keith W. Ross, Pearson, 7th and Global Edition, ISBN 13: 978-1-292-15359-9 (This book will not be used before December).
- * [JG] Modern C, Jens Gustedt, April 11, 2017, http://icube-icps.unistra.fr/img_auth.php/d/db/ModernC.pdf.
+ * [JG] Modern C, Jens Gustedt, Feb 13, 2018, http://icube-icps.unistra.fr/img_auth.php/d/db/ModernC.pdf.
  * Some notes and book chapters that will be made available through the detailed course schedule.
 
 BOH is (and KR will be) available at Academic Books at Panum (http://www.academicbooks.dk/) and  Polyteknisk Boghandel at Biocenteret (http://www.polyteknisk.dk/).
@@ -65,7 +66,7 @@ There are 8 assignment in total during the course with deadline roughly every se
 | A6: Computer Networking - 1      |            16 Dec |
 | A7: Computer Networking - 2      |            06 Jan |
 
-The assignments will be graded with points from 0 to 4 and it is not possible to re-handin any of the assignments.
+The assignments will be graded with points from 0 to 4 and it is not possible to re-hand-in any of the assignments.
 
 Assignments are made to be solved in groups of preferably three students, but groups of two active students will also do. We strongly encourage not to work alone. Groups cannot be larger than three students. Each Group must make their own solutions and cannot share implementations and report with other. You can discuss material and ideas.
 
