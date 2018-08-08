@@ -76,6 +76,7 @@ To qualify for the exam you are required to achieve at least 50 % of the total n
 Furthermore, we will require that you a reasonable understanding of all parts (ARK, OS, CN) of the assignments. This is firstly interpreted as achieving points at least 40 % points in each the of topics. To optimise your understanding of the course, and since all assignments are in the syllabus, we encourage you to work with and hand in all sets.
 
 Mapping of topics to assignments:
+
 |                      | A0 | A1 | A2 | A3 | A4 | A5 | A6 | A7 |
 | ---------------------|----|----|----|----|----|----|----|----|
 | Machine architecture |    |    |  X |  X |    |    |    |    |
