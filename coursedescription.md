@@ -77,11 +77,11 @@ Furthermore, we will require that you a reasonable understanding of all parts (A
 
 Mapping of topics to assignments:
 |                      | A0 | A1 | A2 | A3 | A4 | A5 | A6 | A7 |
-|----------------------|----|----|----|----|----|----|----|----|
+| ---------------------|----|----|----|----|----|----|----|----|
 | Machine architecture |    |    |  X |  X |    |    |    |    |
-|----------------------|----|----|----|----|----|----|----|----|
+| ---------------------|----|----|----|----|----|----|----|----|
 | Operating System     |    |    |    |    |  X |  X |    |    |
-|----------------------|----|----|----|----|----|----|----|----|
+| ---------------------|----|----|----|----|----|----|----|----|
 | Computer network     |    |    |    |    |    |    |  X |  X |
 
 The rule about 40 % of points for assignments in each topic, is included to make sure that you will uphold the learning goals for the course. We will teach you about many different abstractions and you should learn something about all of them. Without this rule you could attend the exam without e.g. learning anything about computer networks by getting enough points in the beginning of the course. The 40 % is chosen as it should be "easier" than the general rule of 50 %; it will therefore be set to 3 of the possible 8 points.
