@@ -25,7 +25,7 @@ This course is a general introduction to computer systems. You will learn how co
 
  * Mondays 15-17
  * Wednesdays 13-16
- * Teaching assistants:  Minh Duc Tran, Troels Korreman Nielsen, Kristian Bøjer Andreasen, Ludvig Karstens, Jeppe Werner Laursen, Alex Bruun Hemmingsen, Jens Kanstrup Larsen
+ * Teaching assistants:  Minh Duc Tran, Troels Korreman Nielsen, Kristian Bøjer Andreasen, Ludvig Karstens, Jeppe Werner Laursen, Alex Bruun Hemmingsen, Jens Kanstrup Larsen, and Mathias Graae Larsen
 
 We do still not know the location of the exercises sessions. Also information about creation of teams will be posted at a later time.
 
