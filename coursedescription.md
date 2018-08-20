@@ -13,7 +13,7 @@ This course is a general introduction to computer systems. You will learn how co
  * Week 52: Christmas vacation
  * Week 1-2: Computer networks cont. and encryption
  * Week 3: Exam preparation and question hour
- * Week 4: 4 hour written exam (Friday, Jan 19)
+ * Week 4: 4 hour written exam (Wed, Jan 23)
 
 ## Lectures
 
