@@ -58,8 +58,8 @@ There are 8 assignment in total during the course with deadline roughly every se
 |                                  | Expected deadline |
 | ---------------------------------|-------------------|
 | A0: Getting started with file(1) |            09 Sep |
-| A1: file(1) - Unicode            |            16 Sep |
-| A2: Simulering af x86 delmængde  |            30 Sep |
+| A1: file(1) - Unicode            |            23 Sep |
+| A2: Simulering af x86 delmængde  |            07 Oct |
 | A3: Programopførsel              |            28 Oct |
 | A4: Processes                    |            11 Nov |
 | A5: Concurrent Programming       |            02 Dec |
