@@ -31,7 +31,7 @@ We do still not know the location of the exercises sessions. Also information ab
 
 ## Study ambassadors and cafés
 
-On most Fridays from 13 to 15 there will be study cafés in which you can get help with the material and assignments. The cafés will be serviced by the Study Ambassadors: Jeppe Werner Laursen and Kristian Bøjer Andreasen.
+On most Fridays from 14 to 16 there will be study cafés in which you can get help with the material and assignments. The cafés will be serviced by the Study Ambassadors: Jeppe Werner Laursen and Kristian Bøjer Andreasen.
 
 ## Teaching Material
 
