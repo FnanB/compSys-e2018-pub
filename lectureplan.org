@@ -1,4 +1,4 @@
-#+TITLE: Lecture plan for Computer Systems (CompSys) B1+2 2017/18
+#+TITLE: Lecture plan for Computer Systems (CompSys) B1+2 2018/19
 #+AUTHOR: Michael Kirkedal Thomsen
 
 This course schedule is tentative and will be updated.
