@@ -31,7 +31,7 @@ We do still not know the location of the exercises sessions. Also information ab
 
 ## Study ambassadors and cafés
 
-On most Fridays from 14 to 16 there will be study cafés in which you can get help with the material and assignments. The cafés will be serviced by the Study Ambassadors: Jeppe Werner Laursen and Kristian Bøjer Andreasen.
+On most Fridays from 14 to 16 there will be study cafés in which you can get help with the material and assignments. The cafés will be serviced by the Study Ambassadors: Jeppe Werner Laursen and Kristian Bøjer Andreasen. Cafés are held in DIKU 1-0-04, 1-0-10 and 1-0-18.
 
 ## Teaching Material
 
@@ -40,7 +40,7 @@ On most Fridays from 14 to 16 there will be study cafés in which you can get he
  * [JG] Modern C, Jens Gustedt, Feb 13, 2018, http://icube-icps.unistra.fr/img_auth.php/d/db/ModernC.pdf.
  * Some notes and book chapters that will be made available through the detailed course schedule.
 
-BOH is (and KR will be) available at Academic Books at Panum (http://www.academicbooks.dk/) and  Polyteknisk Boghandel at Biocenteret (http://www.polyteknisk.dk/).
+BOH is (and KR will be) available at Academic Books at Panum (http://www.academicbooks.dk/) and Polyteknisk Boghandel at Biocenteret (http://www.polyteknisk.dk/).
 
 ## Exam
 
