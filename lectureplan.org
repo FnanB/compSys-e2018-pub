@@ -9,7 +9,7 @@ This course schedule is tentative and will be updated.
 |      | 05 Sep       |              13-15 | Arc   | Michael  | Bits, Bytes & Words + C programming - files and error handling                | BOH 2.1-2.2, JG 4-7 |
 |      | 09 Sep       |                    |       |          | A0 hand-in                                                                    |                     |
 |   37 | 10 Sep       |              15-17 | Arc   | Michael  | Arithmetic                                                                    | BOH 2.3-2.4         |
-|      | 12 Sep       |              13-15 | Arc   | Michael  | C Programming - pointers and memory + GDB                                     | JG 8-9              |
+|      | 12 Sep       |              13-15 | Arc   | Troels   | C Programming - pointers and memory + GDB                                     | JG 8-9              |
 |   38 | 17 Sep       |              15-17 | Arc   | Michael  | Machine-Level representation I                                                | BOH 3.1-3.6         |
 |      | 19 Sep       |              13-15 | Arc   | Michael  | Machine-level representation II                                               | BOH 3.7-3.11        |
 |      | 23 Sep       |                    |       |          | A1 hand-in                                                                    |                     |
