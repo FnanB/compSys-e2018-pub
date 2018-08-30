@@ -17,17 +17,18 @@ This course is a general introduction to computer systems. You will learn how co
 
 ## Lectures
 
- * Mondays at 13-15 in St UP1, DIKU
- * Wednesdays at 10-12 in St UP1, DIKU
+ * Mondays at 15-17 in St. UP1, DIKU
+ * Wednesdays at 13-15 in St. UP1, DIKU
  * Instructors: Michael Kirkedal Thomsen (instructor-in-charge), Finn Schirmer Andersen, Troels Henriksen, and Vivek Shan
 
 ## Exercises
 
- * Mondays 15-17
- * Wednesdays 13-16
- * Teaching assistants:  Minh Duc Tran, Troels Korreman Nielsen, Kristian Bøjer Andreasen, Ludvig Karstens, Jeppe Werner Laursen, Alex Bruun Hemmingsen, Jens Kanstrup Larsen, and Mathias Graae Larsen
+ * Mondays 13-15
+ * Wednesdays 10-12
+ * Wednesdays 15-17 in St. UP1, DIKU -- This session is optional and dedicated to help with assignments and other questions.
 
-We do still not know the location of the exercises sessions. Also information about creation of teams will be posted at a later time.
+Teaching assistants:  Minh Duc Tran, Troels Korreman Nielsen, Kristian Bøjer Andreasen, Ludvig Karstens, Jeppe Werner Laursen, Alex Bruun Hemmingsen, Jens Kanstrup Larsen, and Mathias Graae Larsen
+
 
 ## Study ambassadors and cafés
 
