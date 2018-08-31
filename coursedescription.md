@@ -73,7 +73,7 @@ Assignments are made to be solved in groups of preferably three students, but gr
 
 ## Exam qualification
 
-To qualify for the exam you are required to achieve at least 50 % of the total number of points in the assignments. A0 and A1 is only 1-week assignments and will, thus, have half weight in the final score.
+To qualify for the exam you are required to achieve at least 50 % of the total number of points in the assignments. A0 and A1 is in total considered the same size as the following assignments: this means that points given in A0 is weighted 1/3 while A1 is weighted 2/3.
 
 Furthermore, we will require that you a reasonable understanding of all parts (ARK, OS, CN) of the assignments. This is firstly interpreted as achieving points at least 40 % points in each the of topics. To optimise your understanding of the course, and since all assignments are in the syllabus, we encourage you to work with and hand in all sets.
 
