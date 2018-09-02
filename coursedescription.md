@@ -27,8 +27,42 @@ This course is a general introduction to computer systems. You will learn how co
  * Wednesdays 10-12
  * Wednesdays 15-17 in St. UP1, DIKU -- This session is optional and dedicated to help with assignments and other questions.
 
-Teaching assistants:  Minh Duc Tran, Troels Korreman Nielsen, Kristian Bøjer Andreasen, Ludvig Karstens, Jeppe Werner Laursen, Alex Bruun Hemmingsen, Jens Kanstrup Larsen, and Mathias Graae Larsen
+Room allocation will be as follows. 
 
+ * Alex Bruun Hemmingsen
+   * Mon @ RF071, Rockefeller komplekset
+   * Wed @ 1-0-34, DIKU
+ * Jens Kanstrup Larsen
+   * Mon @ Seminar B, AKB
+   * Wed @ 4-0-13, Biocenter
+ * Jeppe Werner Laursen
+   * Mon @ 2-0-25, Biocenter
+   * Wed @ 1-0-18, DIKU
+ * Kristian Bøjer Andreasen
+   * Mon @ C103, HCØ
+   * Wed @ 4-0-24, Biocenter
+ * Ludvig Karstens
+   * Mon @ AB Teori 2
+   * Wed @ 1-0-22, DIKU
+ * Mathias Graae Larsen
+   * Mon @ 1-0-04, DIKU
+   * Wed @ AB Teori 2
+ * Minh Duc Tran
+   * Mon @ 3-1-25, DIKU
+   * Wed @ 4-0-05, Biocenter
+ * Troels Korreman Nielsen
+   * Mon @ RF061, Rockefeller komplekset
+   * Wed @ 1-0-26, DIKU
+
+### Room details
+ * AB Teori 2, Nørre Alle 55, https://nexs.ku.dk/kontakt/findvej/kort_norre-campus/
+ * AKB, August Krogh Bygningen, Universitetsparken 13, remember that entrance is through the side opposite Caféen?, https://www1.bio.ku.dk/om/lokaleoversigter/akb/
+ * Biocenter, Ole Maaløes Vej 5, https://www.biocenter.ku.dk/kort/
+ * DIKU, No further explanation needed
+ * HCØ, C103, https://www.fukbh.dk/media/9675696/hco_svalegang.jpg
+ * Rockefeller komplekset, Juliane Maries Vej 26-36, https://www.fukbh.dk/media/7145122/http___cms_ku_dk_nat-sites_nbi-sites_for_ansatte_bygningsdrift_tegning_uv_lok_fritekstboks_alle_tre_adresser2.pdf
+
+(For some reason, it is easier to find maps with Folkeuniversitet than KU.)
 
 ## Study ambassadors and cafés
 
