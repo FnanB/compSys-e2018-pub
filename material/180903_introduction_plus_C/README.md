@@ -1,6 +1,6 @@
 Extraordinarily for this first day the teaching will be divided into three parts
 
-* 12:15 - 13:00 in ABK Aud 1
+* 12:15 - 13:00 in AKB Aud 1
   * We will start by a short welcome and a quick glans at the course.
   * Following this I will give a quick crash course in C -- just enough for you to do some programs your self.
 * 13:15 - 15:00 Exercises
