@@ -12,7 +12,7 @@ If you prefer to not have to deal with the VirtualBox, most parts can run on you
   * [Windows tools](windows.md)
 
 ## Make
-We will throughout the course use the build system Make. We strongly recommend that you become familiar with it and it will also be useful in the future. There exists many manuals on the internet, but will suggest this one: https://github.com/OnlineTA/tutorial-workbench/blob/master/your-canonical-build-system-make/Tutorial.asciidoc
+We will throughout the course use the build system Make. We strongly recommend that you become familiar with it and it will also be useful in the future. There exists many manuals on the internet, but will suggest this one: https://oleks.github.io/compsys-archive/make.html
 
 ## VirtualBox
 We will create a VirtualBox image with most the tools you will need pre-installed. During the course we will further provide you with installations scripts and an updated images for new tools. First image will be published later this week.
