@@ -1,4 +1,4 @@
-#VM image
+# VM image
 
 For some things it might be easier (or necessary) to use a virtual machine.
 http://topps.diku.dk/compsys/compsys17-debian-v1.1-64bit.ova
