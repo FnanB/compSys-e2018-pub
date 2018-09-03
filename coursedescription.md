@@ -17,7 +17,7 @@ This course is a general introduction to computer systems. You will learn how co
 
 ## Lectures
 
- * Mondays at 15-17 in St. UP1, DIKU
+ * Mondays at 15-17 in Aud 1, HCØ
  * Wednesdays at 13-15 in St. UP1, DIKU
  * Instructors: Michael Kirkedal Thomsen (instructor-in-charge), Finn Schirmer Andersen, Troels Henriksen, and Vivek Shan
 
@@ -27,7 +27,7 @@ This course is a general introduction to computer systems. You will learn how co
  * Wednesdays 10-12
  * Wednesdays 15-17 in St. UP1, DIKU -- This session is optional and dedicated to help with assignments and other questions.
 
-Room allocation will be as follows. 
+Room allocation will be as follows.
 
  * Alex Bruun Hemmingsen
    * Mon @ RF071, Rockefeller komplekset
