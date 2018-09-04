@@ -92,14 +92,14 @@ There are 8 assignment in total during the course with deadline roughly every se
 
 |                                   | Expected deadline   |
 | --------------------------------- | ------------------- |
-| A0: Getting started with file(1)  | 09 Sep @ 10:00      |
-| A1: file(1) - Unicode             | 23 Sep @ 10:00      |
-| A2: Simulering af x86 delmængde   | 07 Oct @ 10:00      |
-| A3: Programopførsel               | 28 Oct @ 10:00      |
-| A4: Processes                     | 11 Nov @ 10:00      |
-| A5: Concurrent Programming        | 02 Dec @ 10:00      |
-| A6: Computer Networking - 1       | 16 Dec @ 10:00      |
-| A7: Computer Networking - 2       | 06 Jan @ 10:00      |
+| A0: Getting started with file(1)  | 09 Sep @ 10:00AM    |
+| A1: file(1) - Unicode             | 23 Sep @ 10:00AM    |
+| A2: Simulering af x86 delmængde   | 07 Oct @ 10:00AM    |
+| A3: Programopførsel               | 28 Oct @ 10:00AM    |
+| A4: Processes                     | 11 Nov @ 10:00AM    |
+| A5: Concurrent Programming        | 02 Dec @ 10:00AM    |
+| A6: Computer Networking - 1       | 16 Dec @ 10:00AM    |
+| A7: Computer Networking - 2       | 06 Jan @ 10:00AM    |
 
 The deadlines (including hand-in time) in Block 1 have been coordinated with the MASD course.
 
