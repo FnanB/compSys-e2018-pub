@@ -68,6 +68,17 @@ Room allocation will be as follows.
 
 On most Fridays from 14 to 16 there will be study cafés in which you can get help with the material and assignments. The cafés will be serviced by the Study Ambassadors: Jeppe Werner Laursen and Kristian Bøjer Andreasen. Cafés are held in DIKU 1-0-04, 1-0-10 and 1-0-18.
 
+| Currently planned cafés |
+|-------------------------|
+| 07 Sep @ 14-16          |
+| 21 Sep @ 14-16          |
+| 05 Oct @ 14-16          |
+| 26 Oct @ 14-16          |
+| 09 Nov @ 14-16          |
+| 30 Nov @ 14-16          |
+| 14 Dec @ 14-16          |
+| 04 Jan @ 14-16          |
+
 ## Teaching Material
 
  * [BOH] Computer Systems: A programmer's perspective, Randal E. Bryant and David R. O'Hallaron, Pearson, 3rd and Global Edition, ISBN 13: 978-1292101767.
