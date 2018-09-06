@@ -18,17 +18,21 @@ This course is a general introduction to computer systems. You will learn how co
 ## Lectures
 
  * Mondays at 15-17 in Aud 1, HCØ
- * Wednesdays at 13-15 in St. UP1, DIKU
+ * Wednesdays at 13-15 in St. UP1, DIKU (Except week 47, where it is in HCØ Aud 4)
  * Instructors: Michael Kirkedal Thomsen (instructor-in-charge), Finn Schirmer Andersen, Troels Henriksen, and Vivek Shan
 
 ## Exercises
 
  * Mondays 13-15
  * Wednesdays 10-12
- * Wednesdays 15-17 in St. UP1, DIKU -- This session is optional and dedicated to help with assignments and other questions.
+ * Wednesdays 15-17
+   * This session is optional and dedicated to help with assignments and other questions. Not all sessions will be held and some can be changed to guest talks. See course plan for details.
+   * Held in St. UP1, DIKU (just after lectures)
+   * Except in Week 47, where it is helt in AKB Aud 1
 
 Room allocation will be as follows.
 
+### Block 1 (Week 36 - 45)
  * Alex Bruun Hemmingsen
    * Mon @ RF071, Rockefeller komplekset
    * Wed @ 1-0-34, DIKU
@@ -54,6 +58,39 @@ Room allocation will be as follows.
    * Mon @ RF061, Rockefeller komplekset
    * Wed @ 1-0-26, DIKU
 
+### Block 2 (Week 47 - 3)
+ * Alex Bruun Hemmingsen
+   * Mon @ RF071, Rockefeller komplekset
+   * Wed @ 1-0-34, DIKU
+ * Jens Kanstrup Larsen
+   * Mon @ Kursussal 1, Zoo
+   * Wed @ A105, HCØ -- (Weeks 47-49 plus 1-3)
+   * Wed @ Seminar B, AKB --  (Weeks 50-51)
+ * Jeppe Werner Laursen
+   * Mon @ RF085, Rockefeller komplekset
+   * Wed @ 1-0-30, DIKU
+ * Kristian Bøjer Andreasen
+   * Mon @ Kursussal 4A, Zoo
+   * Wed @ A106, HCØ -- (Weeks 47-49 plus 1-3)
+   * Wed @ Kursussal 4A, Zoo --  (Weeks 50-51)
+ * Ludvig Karstens
+   * Mon @ Kursussal 4, Zoo
+   * Wed @ A107, HCØ -- (Weeks 47-49 plus 1-3)
+   * Wed @ Kursussal 4, Zoo --  (Weeks 50-51)
+ * Mathias Graae Larsen
+   * Mon @ Kursussal 3, Zoo
+   * Wed @ A103, HCØ -- (Weeks 47-49 plus 1-3)
+   * Wed @ Seminar A, AKB --  (Weeks 50-51)
+ * Minh Duc Tran
+   * Mon @ RF086, Rockefeller komplekset
+   * Wed @ A110, HCØ
+ * Troels Korreman Nielsen
+   * Mon @ RF061, Rockefeller komplekset
+   * Wed @ 1-0-26, DIKU
+
+
+
+
 ### Room details
  * AB Teori 2, Nørre Alle 55, https://nexs.ku.dk/kontakt/findvej/kort_norre-campus/
  * AKB, August Krogh Bygningen, Universitetsparken 13, remember that entrance is through the side opposite Caféen?, https://www1.bio.ku.dk/om/lokaleoversigter/akb/
@@ -61,6 +98,7 @@ Room allocation will be as follows.
  * DIKU, No further explanation needed
  * HCØ, C103, https://www.fukbh.dk/media/9675696/hco_svalegang.jpg
  * Rockefeller komplekset, Juliane Maries Vej 26-36, https://www.fukbh.dk/media/7145122/http___cms_ku_dk_nat-sites_nbi-sites_for_ansatte_bygningsdrift_tegning_uv_lok_fritekstboks_alle_tre_adresser2.pdf
+ * Zoo, Zoologisk Museum, Universitetsparken 15
 
 (For some reason, it is easier to find maps with Folkeuniversitet than KU.)
 
