@@ -40,7 +40,8 @@ Room allocation will be as follows.
    * Mon @ Seminar B, AKB
    * Wed @ 4-0-13, Biocenter
  * Jeppe Werner Laursen
-   * Mon @ 2-0-25, Biocenter
+   * Mon @ 2-0-07/09, Biocenter -- (Weeks 36-39, and 43-45)
+   * Mon @ 2-1-17, Biocenter  -- (Weeks 40-41)
    * Wed @ 1-0-18, DIKU
  * Kristian Bøjer Andreasen
    * Mon @ C103, HCØ
@@ -58,28 +59,29 @@ Room allocation will be as follows.
    * Mon @ RF061, Rockefeller komplekset
    * Wed @ 1-0-26, DIKU
 
+
 ### Block 2 (Week 47 - 3)
  * Alex Bruun Hemmingsen
    * Mon @ RF071, Rockefeller komplekset
    * Wed @ 1-0-34, DIKU
  * Jens Kanstrup Larsen
    * Mon @ Kursussal 1, Zoo
-   * Wed @ A105, HCØ -- (Weeks 47-49 plus 1-3)
+   * Wed @ A105, HCØ -- (Weeks 47-49 and 1-3)
    * Wed @ Seminar B, AKB --  (Weeks 50-51)
  * Jeppe Werner Laursen
    * Mon @ RF085, Rockefeller komplekset
    * Wed @ 1-0-30, DIKU
  * Kristian Bøjer Andreasen
    * Mon @ Kursussal 4A, Zoo
-   * Wed @ A106, HCØ -- (Weeks 47-49 plus 1-3)
+   * Wed @ A106, HCØ -- (Weeks 47-49 and 1-3)
    * Wed @ Kursussal 4A, Zoo --  (Weeks 50-51)
  * Ludvig Karstens
    * Mon @ Kursussal 4, Zoo
-   * Wed @ A107, HCØ -- (Weeks 47-49 plus 1-3)
+   * Wed @ A107, HCØ -- (Weeks 47-49 and 1-3)
    * Wed @ Kursussal 4, Zoo --  (Weeks 50-51)
  * Mathias Graae Larsen
    * Mon @ Kursussal 3, Zoo
-   * Wed @ A103, HCØ -- (Weeks 47-49 plus 1-3)
+   * Wed @ A103, HCØ -- (Weeks 47-49 and 1-3)
    * Wed @ Seminar A, AKB --  (Weeks 50-51)
  * Minh Duc Tran
    * Mon @ RF086, Rockefeller komplekset
