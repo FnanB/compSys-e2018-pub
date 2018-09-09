@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta keywords="CompSys,Computer Systems,DIKU,Integer Arithmetic,talrepresentationer">
+<style>
+@media print {
+  #config, #problem, #answer, .help, #compatibility {
+    display:none;
+  }
+}
+body {
+  font-family: monospace;
+  text-align: center;
+  -webkit-print-color-adjust:exact;
+  font-size:12px;
+}
+input {
+  font-family: monospace;
+}
+section {
+  width:800px;
+  margin:auto;
+}
+table {
+  font-size:15px;
+  /*width:inherit;
+  table-layout:fixed;*/
+}
+#log_table {
+  font-size:15px;
+  width:inherit;
+  table-layout:fixed;
+}
+table, th, td {
+  border: 1px solid black;
+}
+thead {
+  font-weight:bold;
+}
+td {
+  padding:0;
+}
+.github {
+  padding-top:1em;
+}
+#config {
+  margin:30px 0 0 0;
+}
+#problem {
+  margin: 0 auto;
+}
+#answer {
+  width:100%;
+}
+#fst, #snd, #answer {
+  text-align:right
+}
+.big {
+  font-size:30px;
+  text-align:center;
+}
+.small {
+  font-size:15px;
+}
+.overflow: {
+  background-color:LightYellow;
+}
+.points {
+  font-size: 20px;
+  padding: 30px;
+}
+.help {
+  margin: 15px 0 30px 0;
+}
+#op {
+  width:100px;
+}
+#log table, #log table td {
+  border:none;
+}
+#log table {
+  margin:0 auto;
+}
+</style>
+<title>Integer Arithmetic Game</title>
+</head>
+<body>
+<section>
+<div class="author">
+  Created @ <a href="http://www.diku.dk/" target="_blank">DIKU</a>.
+  <span id="compatibility">(Works best in Google Chrome.)</span>
+</div>
+<div id="config">
+  Do
+  <select id="op_select" onchange="setSettings()">
+    <option value="+">addition</option>
+    <option value="-">subtraction</option>
+    <option value="*">multiplication</option>
+    <option value="/">division</option>
+  </select>
+  of
+  <select id="bits" onchange="setSettings()">
+    <option value="1">4 (medium)</option>
+    <option value="2">8 (hard)</option>
+    <option value="4">16 (difficult)</option>
+    <option value="8">32 (unreasonable)</option>
+  </select>
+  bits in base
+  <select id="base" onchange="setSettings()">
+    <option value="2">2</option>
+    <option value="16">16</option>
+    <option value="32">32 (expert mode)</option>
+  </select>
+</div>
+<div class="help">
+  Wait, what?
+  <a href="http://cs50.tv/2012/fall/shorts/binary/binary-720p.mp4" target="_blank">Bits?</a>
+  <a href="https://en.wikipedia.org/wiki/Hexadecimal" target="_blank">Hex?</a>
+  Where are the <a href="https://games.onlineta.org/integer-arithmetic.html#" onclick="window.location=&quot;view-source:&quot; + window.location.href">cheat codes?</a>
+</div>
+<div>
+<table id="problem" class="big">
+<tbody>
+<tr>
+  <td id="op" rowspan="2">+</td>
+  <td id="fst">1000</td>
+</tr>
+<tr>
+  <td id="snd">0010</td>
+</tr>
+<tr>
+  <td nowrap class="overflow_cell">
+    <label for="overflow" class="small">Overflow:</label>
+    <input id="overflow" class="big" type="checkbox" tabindex=2
+      onkeydown="press_overflow(event)"/>
+  </td>
+  <td>
+    <input id="answer" class="big" type="text" tabindex=1 onkeydown="keypress(event)">
+  </td>
+</tr></tbody>
+</table>
+</div>
+<div class="points">Correct: <span id="points">0/0 (NaN%)</span></div>
+<table id="log_table">
+  <thead>
+    <tr><td>Problem</td><td>Solution</td><td>Your Answer</td>
+  </tr></thead>
+  <tbody id="log"></tbody>
+</table>
+<div class="github">
+  Have comments or suggestions? Check us out on <a target="_blank" href="https://github.com/onlineta/games">GitHub</a>.
+</div>
+<div class="other">
+  See also our <a target="_blank" href="https://games.onlineta.org/">other games</a>.
+</div>
+</section>
+<script type="text/javascript">
+var GOOD_COLOR = "SpringGreen";
+var BAD_COLOR = "OrangeRed";
+
+var count = 0;
+var goodCount = 0;
+
+var fst_num = 0;
+var snd_num = 0;
+
+var VALID_KEYS = "";
+var MAX_LENGTH = 0;
+
+function byId(id) {
+  return document.getElementById(id);
+}
+
+const answer_elem = byId("answer");
+const base_elem = byId("base");
+const overflow_elem = byId("overflow");
+const bits_elem = byId("bits");
+const op_elem = byId("op_select");
+const fst_elem = byId("fst");
+const snd_elem = byId("snd");
+
+function serialize() {
+  return [
+      op_elem.selectedIndex.toString(),
+      bits_elem.selectedIndex.toString(),
+      base_elem.selectedIndex.toString(),
+      fst_num.toString(10),
+      snd_num.toString(10)
+    ];
+}
+
+function deserialize(data) {
+  op_elem.selectedIndex = parseInt(data[0], 10);
+  bits_elem.selectedIndex = parseInt(data[1], 10);
+  base_elem.selectedIndex = parseInt(data[2], 10);
+  fst_num = parseInt(data[3], 10);
+  snd_num = parseInt(data[4], 10);
+}
+
+function get_valid_keys(base) {
+  var valid_keys = [];
+  for(var i = 0; i < base; i++) {
+    valid_keys.push(i.toString(base));
+  }
+  return valid_keys.join('');
+}
+
+function get_max_length(base) {
+  return getMaxRand().toString(base).length;
+}
+
+function prepare_globals() {
+  var base = parseInt(base_elem.value, 10);
+  VALID_KEYS = get_valid_keys(base);
+  MAX_LENGTH = get_max_length(base);
+}
+
+function pad_trunc(str, base) {
+  var max_rand = getMaxRand();
+
+  var base_length = max_rand.toString(base).length;
+  var toPad = base_length - str.length;
+
+  var retval = "";
+
+  if (toPad < 0) {
+    retval = str.substr(str.length - base_length, base_length);
+  } else {
+    retval = "0".repeat(toPad) + str;
+  }
+
+  return retval
+}
+
+function inBase(number, base) {
+  if (base != 10) {
+    number = number >>> 0; // sign-extend
+  }
+
+  var ret = number.toString(base).toUpperCase();
+
+  if (base != 10) {
+    ret = pad_trunc(ret, base);
+  }
+
+  if (base == 16) {
+    ret = "0x" + ret;
+  }
+
+  return ret;
+}
+
+var hamster = 0;
+var number = 0;
+var problem = "";
+
+function getMaxRand() {
+  return parseInt("F".repeat(parseInt(bits_elem.value, 10)), 16);
+}
+
+function genRandNum() {
+  var max_rand = getMaxRand();
+  return Math.floor(Math.random() * max_rand);
+}
+
+function doOp(op, fst_num, snd_num) {
+  var value = 0;
+  var overflow = false;
+
+  switch (op) {
+  case "+":
+    value = fst_num + snd_num;
+    overflow = value > getMaxRand();
+    break;
+  case "-":
+    value = fst_num - snd_num;
+    break;
+  case "*":
+    value = fst_num * snd_num;
+    break;
+  case "/":
+    value = ~~(fst_num / snd_num);
+    break;
+  }
+
+  return { overflow: overflow, value: value };
+}
+
+function freshStart() {
+  base_elem.selectedIndex = 0;
+  prepare_globals();
+  generate();
+}
+
+function load(hash) {
+  var data = atob(hash.substring(1)).split("_");
+  if (data.length < 4) {
+    freshStart();
+  } else {
+    deserialize(data);
+    prepare_globals();
+    playRound();
+  }
+}
+
+function setSettings() {
+  prepare_globals();
+  generate();
+}
+
+function generate() {
+  fst_num = genRandNum();
+  snd_num = genRandNum();
+  playRound();
+}
+
+function playRound() {
+  var base = parseInt(base_elem.value, 10);
+
+  var op = byId("op_select").value;
+  var fst = inBase(fst_num, base);
+  var snd = inBase(snd_num, base);
+
+  var opres = doOp(op, fst_num, snd_num);
+  number = opres.value;
+
+  hamster = { overflow: opres.overflow, str: inBase(number, base) };
+
+  answer_elem.value = "";
+  answer_elem.focus();
+  overflow_elem.checked = 0;
+
+  data = serialize().join("_");
+  var hash = "#" + btoa(data);
+  window.location.hash = hash;
+
+  problem =
+    "<a href='" + hash + "' onclick=\"load('" + hash + "')\">" +
+    "<table><tbody><tr><td rowspan='2'>" + op +
+    "</td><td>" + fst +
+    "</td></tr><tr><td>" + snd +
+    "</td></tbody></table></a>";
+
+  byId("fst").innerHTML = fst;
+  byId("snd").innerHTML = snd;
+  byId("op").innerHTML = op;
+
+  updatePoints();
+}
+
+function resetBg() {
+  setBg("white");
+}
+
+function flashBg(color) {
+  log(color);
+  setBg(color);
+  setTimeout(resetBg, 250);
+}
+
+function setBg(color) {
+  document.body.style.backgroundColor = color;
+}
+
+function updatePoints() {
+  byId("points").innerHTML = goodCount + "/" + count + " (" +
+    Math.floor(goodCount/count * 100) + "%)";
+}
+
+function bool2int(value) {
+  return value ? 1 : 0;
+}
+
+function log(color) {
+  var answer = [bool2int(overflow_elem.checked), answer_elem.value];
+  var solution = [bool2int(hamster.overflow), hamster.str];
+
+  var entry = document.createElement("tr");
+  entry.setAttribute("bgcolor", color);
+  entry.innerHTML = "<td>" + problem + "</td><td>" +
+    solution + "</td><td>" + answer + "</td>";
+  var log = byId("log");
+
+  log.insertBefore(entry, log.firstChild);
+}
+
+function check() {
+  count += 1;
+
+  if (answer_elem.value == hamster.str &&
+      overflow_elem.checked == hamster.overflow) {
+    flashBg(GOOD_COLOR);
+    goodCount += 1;
+  } else {
+    flashBg(BAD_COLOR);
+  }
+
+  generate();
+}
+
+function press_overflow(e) {
+  var key = e.keyCode || e.charCode;
+  if (key == 13) { // Enter
+    e.preventDefault();
+    check();
+  }
+}
+
+function keypress(e) {
+  var key = e.keyCode || e.charCode;
+  if (key == 13) { // Enter
+    e.preventDefault();
+    check();
+  } else if ([8, 46, 37, 39].includes(key)) {
+    // Do the default thing.
+  } else {
+    e.preventDefault();
+    var c = String.fromCharCode(key).toLowerCase();
+    if (VALID_KEYS.includes(c)) {
+      if (answer_elem.value.length === MAX_LENGTH) {
+        overflow_elem.focus();
+      } else {
+        answer_elem.value = c.toUpperCase() + answer_elem.value;
+        answer_elem.setSelectionRange(0,0);
+        if (answer_elem.value.length === MAX_LENGTH) {
+          overflow_elem.focus();
+        }
+      }
+    }
+  }
+}
+
+byId("base").selectedIndex = 0;
+load(window.location.hash);
+</script>
+
+
+</body></html>
