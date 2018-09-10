@@ -12,6 +12,6 @@ Katrine Kaas from KU's *Online and Blended Learning* group have been so kind to 
   * We will discuss the material on binary addition and discuss open questions.
     * This you are expected to prepare in advance.
     * You can find a video I made about it here: https://youtu.be/IDVwWLVcx0s
-    * I will post another video about multiplication Sunday evening
+    * We will discuss multiplication in class.
   * We will also talk about floating point numbers and properties of its arithmetic.
   * If time permits, I will touch into the memory structure, otherwise that is a topic for Wednesday.
