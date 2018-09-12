@@ -21,8 +21,20 @@ As standard OS X is setup for using Clang and has even linked `gcc` to run `clan
   ```
 
 ## Code signing GDB
-To use gdb on OS X you need it to be code signed. You can find an explanation of how to do it here:
-  * [http://andresabino.com/2015/04/14/codesign-gdb-on-mac-os-x-yosemite-10-10-2/](http://andresabino.com/2015/04/14/codesign-gdb-on-mac-os-x-yosemite-10-10-2/)
+To use gdb on OS X you need it to be code signed.
+
+You can find an explanation of how to do it here:
+  * [https://gist.github.com/hlissner/898b7dfc0a3b63824a70e15cd0180154](http://andresabino.com/2015/04/14/codesign-gdb-on-mac-os-x-yosemite-10-10-2/))
+
+If you are getting errors like
+
+```
+During startup program terminated with signal ?, Unknown signal.
+```
+then try to:
+  1. Add file `.gdbinit` in your $HOME with the content `set startup-with-shell off`
+  2. Install/Downgrade to gdb 8.0.1 [https://stackoverflow.com/questions/49001329/gdb-doesnt-work-on-macos-high-sierra-10-13-3](https://stackoverflow.com/questions/49001329/gdb-doesnt-work-on-macos-high-sierra-10-13-3)
+
 
 If you use Sierra, there is an extra step. Follow this manual:
   * [https://gist.github.com/gravitylow/fb595186ce6068537a6e9da6d8b5b96d](https://gist.github.com/gravitylow/fb595186ce6068537a6e9da6d8b5b96d)
