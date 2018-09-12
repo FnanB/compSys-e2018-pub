@@ -24,7 +24,7 @@ As standard OS X is setup for using Clang and has even linked `gcc` to run `clan
 To use gdb on OS X you need it to be code signed.
 
 You can find an explanation of how to do it here:
-  * [https://gist.github.com/hlissner/898b7dfc0a3b63824a70e15cd0180154](http://andresabino.com/2015/04/14/codesign-gdb-on-mac-os-x-yosemite-10-10-2/))
+  * [https://gist.github.com/hlissner/898b7dfc0a3b63824a70e15cd0180154](https://gist.github.com/hlissner/898b7dfc0a3b63824a70e15cd0180154)
 
 If you are getting errors like
 
