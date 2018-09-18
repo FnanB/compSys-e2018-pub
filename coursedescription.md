@@ -20,7 +20,7 @@ This course is a general introduction to computer systems. You will learn how co
  * Mondays at 15-17 in Aud 1, HCØ
  * Wednesdays at 13-15 in St. UP1, DIKU
    * Except week 47, where it is in HCØ Aud 4 (due to Matematikrevyen)
-   * Except week 48, where [NAN] (due to Biorevyen)
+   * Except week 48, where it is from 15-17 in AKB Aud 1 (due to Biorevyen)
  * Instructors: Michael Kirkedal Thomsen (instructor-in-charge), Finn Schirmer Andersen, Troels Henriksen, and Vivek Shan
 
 ## Exercises
@@ -28,12 +28,15 @@ This course is a general introduction to computer systems. You will learn how co
  * Mondays 13-15
  * Wednesdays 10-12
  * Wednesdays 15-17
-   * This session is optional and dedicated to help with assignments and other questions. Not all sessions will be held and some can be changed to guest talks. See course plan for details.
-   * Held in St. UP1, DIKU (just after lectures)
-   * Except weeks 47, where it is held in AKB Aud 1 (due to Matematikrevyen)
-   * Except weeks 48, where [NAN] (due to Biorevyen)
+   * This session is optional and dedicated to help with assignments and other questions. Not all sessions will be held and some can be changed to guest talks. See course plan for details. Held in:
+     * Weeks 36 - 37: DIKU St. UP1
+     * Weeks 38 - 44: DIKU 1-0-18, 1-0-22, 1-0-26, 1-0-14
+     * Week 45: [NAN]
+     * Week 47: AKB Aud 1
+     * Week 48: from 13-15 in St. UP1 -- NOTE different time
+     * Weeks 49-3: AKB Aud 1, Aud 3, Seminar A
 
-Room allocation will be as follows.
+Room allocation for exercises will be as follows.
 
 ### Block 1 (Week 36 - 45)
  * Alex Bruun Hemmingsen
