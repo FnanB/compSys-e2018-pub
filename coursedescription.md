@@ -32,7 +32,7 @@ This course is a general introduction to computer systems. You will learn how co
      * Weeks 36 - 37: DIKU St. UP1
      * Weeks 38 - 44: DIKU 1-0-18, 1-0-22, 1-0-26, 1-0-14
      * Week 45: [NAN]
-     * Week 47: AKB Aud 1
+     * Week 47: AKB Aud 1, Aud 3, Seminar A
      * Week 48: from 13-15 in St. UP1 -- NOTE different time
      * Weeks 49-3: AKB Aud 1, Aud 3, Seminar A
 
