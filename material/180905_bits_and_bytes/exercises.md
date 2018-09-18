@@ -1,4 +1,4 @@
-# Exercises for 5/9-2017
+# Exercises for 5/9-2018
 
 Author: Oleks Shturmov <oleks@oleks.info> and Michael Kirkedal Thomsen <kirkedal@acm.org>
 

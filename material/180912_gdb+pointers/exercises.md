@@ -1,4 +1,4 @@
-# Exercises for 10/9-2017
+# Exercises for 12/9-2018
 
 Author: Michael Kirkedal Thomsen <kirkedal@acm.org>
 
