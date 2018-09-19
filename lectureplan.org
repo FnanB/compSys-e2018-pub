@@ -18,18 +18,18 @@ This course schedule is tentative and will be updated.
 |      | 19 Sep       |              13-15 | Arc   | Michael  | Machine-level representation II                                               | BOH 3.7-3.11                  |
 |      |              |              15-17 |       |          | Help with A1 (held in DIKU 1-0-18, 1-0-22, 1-0-26, 1-0-14)                    |                               |
 |      | 21 Sep       |              14-16 | Cafe  |          |                                                                               |                               |
-|      | 23 Sep       |                    |       |          | A1 hand-in                                                                    |                               |
-|   39 | 24 Sep       |              15-17 | Arc   | Finn     | Control and datapath                                                          |                               |
+|      | 23 Sep       |                    |       |          | A1 hand-in                                                                    | [Slides, no reading material] |
+|   39 | 24 Sep       |              15-17 | Arc   | Finn     | Control and datapath                                                          | [Slides, no reading material] |
 |      | 26 Sep       |              13-15 | Arc   | Finn     | Realization of Processors                                                     |                               |
 |      |              |              14:45 |       |          | Presentation about exchange BSc Computer Science                              |                               |
 |      |              |              15-17 |       |          | Help with A2 (held in DIKU 1-0-18, 1-0-22, 1-0-26, 1-0-14)                    |                               |
 |   40 | 01 Oct       |              15-17 | Arc   | Michael  | Introduction to performance and the memory hierarchy                          |                               |
-|      | 03 Oct       |              13-15 | Arc   | Finn     | Core microarchitecture concepts                                               |                               |
+|      | 03 Oct       |              13-15 | Arc   | Finn     | Core microarchitecture concepts                                               | [Slides, no reading material] |
 |      |              |              15-17 |       |          | Help with A2 (held in DIKU 1-0-18, 1-0-22, 1-0-26, 1-0-14)                    |                               |
 |      | 05 Oct       |              14-16 | Cafe  |          |                                                                               |                               |
 |      | 07 Oct       |                    |       |          | A2 handin                                                                     |                               |
 |   41 | 08 Oct       |              15-17 | Arc   | Michael  | Memory hierarchy and caching                                                  |                               |
-|      | 10 Oct       |              13-15 | Arc   | Finn     | Advanced microarchitecture concepts                                           |                               |
+|      | 10 Oct       |              13-15 | Arc   | Finn     | Advanced microarchitecture concepts                                           | [Slides, no reading material] |
 |   42 |              |                    |       |          | Fall Vacation - No lectures                                                   |                               |
 |   43 | 22 Oct       |              15-17 | OS    | Troels   | Processes and Exceptions                                                      |                               |
 |      | 24 Oct       |              13-15 | OS    | Troels   | Dynamic memory                                                                |                               |
