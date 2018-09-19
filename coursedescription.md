@@ -30,7 +30,7 @@ This course is a general introduction to computer systems. You will learn how co
  * Wednesdays 15-17
    * This session is optional and dedicated to help with assignments and other questions. Not all sessions will be held and some can be changed to guest talks. See course plan for details. Held in:
      * Weeks 36 - 37: DIKU St. UP1
-     * Weeks 38 - 44: DIKU 1-0-18, 1-0-22, 1-0-26, 1-0-14
+     * Weeks 38 - 44: DIKU 1-0-14, 1-0-18, 1-0-22, 1-0-26
      * Week 45: [NAN]
      * Week 47: AKB Aud 1, Aud 3, Seminar A
      * Week 48: from 13-15 in St. UP1 -- NOTE different time
@@ -128,6 +128,7 @@ On most Fridays from 14 to 16 there will be study cafés in which you can get he
 ## Teaching Material
 
  * [BOH] Computer Systems: A programmer's perspective, Randal E. Bryant and David R. O'Hallaron, Pearson, 3rd and Global Edition, ISBN 13: 978-1292101767.
+   * Errata http://csapp.cs.cmu.edu/3e/errata.html
  * [KR] Computer Networking: A Top-Down Approach, James F. Kurose and Keith W. Ross, Pearson, 7th and Global Edition, ISBN 13: 978-1-292-15359-9 (This book will not be used before December).
  * [JG] Modern C, Jens Gustedt, Feb 13, 2018, http://icube-icps.unistra.fr/img_auth.php/d/db/ModernC.pdf.
  * Some notes and book chapters that will be made available through the detailed course schedule.
