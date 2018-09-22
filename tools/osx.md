@@ -41,4 +41,5 @@ If you use Sierra, there is an extra step. Follow this manual:
 
 ## Mount to VM
 You can mount home-drive of the VM on your machine using sshfs and work directly on it with your own editors. For this you need to install sshfs:
- * OS X FUSE ([https://osxfuse.github.io/](https://osxfuse.github.io/)). You connect similar to ssh and can use the attached mount shell script. You unmount the directory again using the `umount` command.</p>
+ * OS X: `brew install sshfs`
+You connect similar to ssh and can use the attached mount shell script. You unmount the directory again using the `umount` command.</p>

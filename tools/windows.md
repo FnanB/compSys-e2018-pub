@@ -27,7 +27,7 @@ Fill the fields with the following values:
 
   * **Host name:**  localhost
   * **Port number** 1337
-  * **User name:**  archimedes
+  * **User name:**  neumann
   * **Password:**   hamster
 
 Press "Save", check the "Save password" checkbox as depicted in the screenshot below, and press "OK":
