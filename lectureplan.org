@@ -53,11 +53,11 @@ This course schedule is tentative and will be updated.
 |   51 | 17 Dec       |              15-17 | Enc   | Vivek    | Network layer                                                                 |                               |
 |      | 19 Dec       |              13-15 | Enc   | Vivek    | Network layer                                                                 |                               |
 |   52 |              |                    |       |          | Christmas vacation - No lectures                                              |                               |
-|    1 | 02 Jan       |              13-15 | CN    | Michael  | Introduction to encryption                                                    |                               |
-|      | 06 Jan       |                    |       |          | A7 handin                                                                     |                               |
-|    2 | 07 Jan       |              15-17 | CN    | Vivek    | Encryption on the network                                                     |                               |
+|    1 | 06 Jan       |                    |       |          | A7 handin                                                                     |                               |
+|    2 | ?            |                    | CN    | Michael  | Introduction to encryption                                                    |                               |
+|      | 07 Jan       |              15-17 | CN    | Vivek    | Encryption on the network                                                     |                               |
 |      | 09 Jan       |              13-15 | CN    | Vivek    | Link layer                                                                    |                               |
-|    3 | ?            |                  ? | END   | Everyone | EXAM question session                                                         |                               |
+|    3 | ?            |                    | END   | Everyone | EXAM question session                                                         |                               |
 |    4 | 23 Jan       |                    |       |          | CompSys Exam                                                                  |                               |
 
  - BOH: Bryant, O'Hallaron: Computer Systems: A Programmer's Perspective, 3rd and global edition
