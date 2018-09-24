@@ -18,6 +18,7 @@ Rewrite the following program to C
 
 ```
 p:
+        movq    %rdi, %rax
         jmp     .L5
 .L3:
         addq    %rsi, %rdx
@@ -27,10 +28,11 @@ p:
         movq    (%rdi), %rdx
         testq   %rdx, %rdx
         jg      .L3
-        movq    %rdi, %rax
+        subq    %rdi, %rax
         sarq    $3, %rax
         ret
 ```
 
 ## Recap Boolean arithmetic and logic circuits
 Look at your exercises from Monday 10/09.
+
