@@ -1,4 +1,4 @@
-# Exercises for 19/9-2018
+# Exercises for 249/9-2018
 
 Author: Michael Kirkedal Thomsen <kirkedal@acm.org>
 
@@ -17,6 +17,7 @@ These exercises will:
 Rewrite the following program to C
 
 ```
+p:
         jmp     .L5
 .L3:
         addq    %rsi, %rdx
