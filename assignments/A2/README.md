@@ -1,0 +1,2 @@
+### 25.09.2018
+Hvis er nogle problemer med at installerer simulatoren, henviser vi til den som er installeret på den Virtual maskine. VM manualen under tools er opdateret med information om det seneste image.
