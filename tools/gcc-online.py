@@ -14,7 +14,7 @@ parser = argparse.ArgumentParser(description='Compiles a C program into a gcc ou
 
 parser.add_argument('-o', dest='output',
                     help='Write output to this file')
-parser.add_argument('file', metavar='C-file', 
+parser.add_argument('file', metavar='C-file',
                     help='translates and assembles file')
 
 args = parser.parse_args()
