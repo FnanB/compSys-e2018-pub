@@ -16,7 +16,7 @@ void checkresult(array c, int n)
 {
   int i, j;
 
-  for (i = 0; i < n; i++) {
+  for (i = 0; i < n; i++){
     for (j = 0; j < n; j++) {
       if (c[i][j] != (double)n) {
         printf("Error: bad number (%f) in result matrix (%d,%d)\n", c[i][j], i, j);
@@ -153,20 +153,21 @@ void bikj(array A, array B, array C, int n, int bsize)
   for (i = 0; i < n; i++) {
     for (j = 0; j < n; j++) {
       C[i][j] = 0.0;
-      /* Do blocks along k */
-      for (kk = 0; kk < en; kk += bsize) {
-        for (jj = 0; jj < en; jj += bsize) {
-          for (i = 0; i < n; i++) {
-            for (k = kk; k < kk + bsize; k++) {
-              r = A[i][k];
-              for (j = jj; j < jj + bsize; j++) {
-                C[i][j] += r*B[k][j];
-              }
-            }
+    }
+  }
+  /* Do blocks along k */
+  for (kk = 0; kk < en; kk += bsize) {
+    for (jj = 0; jj < en; jj += bsize) {
+      for (i = 0; i < n; i++) {
+        for (k = kk; k < kk + bsize; k++) {
+          r = A[i][k];
+          for (j = jj; j < jj + bsize; j++) {
+            C[i][j] += r*B[k][j];
           }
         }
       }
     }
+
     /* Now finish remaining j values */
     for (i = 0; i < n; i++) {
       for (k = kk; k < kk + bsize; k++) {
@@ -178,13 +179,13 @@ void bikj(array A, array B, array C, int n, int bsize)
     }
   }
 
-  /* Now finish remaining values of k */
+    /* Now finish remaining values of k */
   for (jj = 0; jj < en; jj += bsize) {
     for (i = 0; i < n; i++) {
       for (k = en; k < n; k++) {
         r = A[i][k];
         for (j = jj; j < jj + bsize; j++) {
-          C[i][j] += r*B[k][j];
+         C[i][j] += r*B[k][j];
         }
       }
     }
