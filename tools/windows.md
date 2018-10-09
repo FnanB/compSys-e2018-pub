@@ -1,22 +1,25 @@
 # Windows tools -- Roll Your Own Toolchain
 
-Note: If you are using a 64-bit Windows 10 and want to avoid dealing with a virtual machine, you can use Windows Subsystem for Linux (WSL), which is a relatively new feature that allows you to run native Linux command-line tools directly on Windows. This means you can use your own Windows files and don't have to bother transferring files to a virtual machine.
+## Windows Subsystem for Linux (WSL)
+We strongly recommend that you are using a 64-bit Windows 10. That way you can in most cases avoid the virtual machine and run native Linux command-line tools directly on Windows. This means you can use your own Windows files and don't have to bother transferring files to a virtual machine.
 
-To install Windows Subsystem for Linux, [click here for Microsoft's own instructions](https://msdn.microsoft.com/en-us/commandline/wsl/install_guide).
+To install Windows Subsystem for Linux, [click here for Microsoft's own instructions](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 
+
+## Virtual machine
 If you are using another version of Windows, prefer virtual machines or experience issues with WSL, follow the below instructions for setting up a virtual machine.
 
 Content:
 * Installing WinSCP
-* Connecting and transfer files from windows to the virtual machine through SSH
+* Connecting and transfer files from windows to the virtual machine through SSH. You can also do this connection though WSL, in which you should follow the general VM manual.
 
 WinSCP is a open source SCP client for windows, which we will use to transfer files between your Windows computer and the virtual Linux machine.
 
-## Installation
+### Installation
 Go to [https://winscp.net/eng/download.php](https://winscp.net/eng/download.php)and download either the installation package or the portable executable.
 The installation package should be installed as any other Windows program, and the portable executable can just be unzipped to any location.
 
-## Connecting to the virtual machine with WinSCP
+### Connecting to the virtual machine with WinSCP
 Make sure that the virtual machine is started and fully booted, then run WinSCP.
 
 The first time you start WinSCP, the window depicted in the screenshot below should open.
