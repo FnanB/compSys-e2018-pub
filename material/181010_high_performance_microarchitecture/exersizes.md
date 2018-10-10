@@ -1,5 +1,5 @@
 
-# Opgave 1
+# Pipeline diagram
 
 Nedenfor ses afviklingen af en stump x86prime kode på en simple pipeline:
 
@@ -59,4 +59,11 @@ instruktioner der skal vente på vej gennem pipelinen?
 
 Vis den optimerede kode og tegn en tilsvarende figur der viser hvordan den udføres 
 i pipelinen. Hvor meget hurtigere er din optimerede kode?
+
+
+# Cache
+
+* PP 6.11 p. 660
+* PP 6.13 p. 664
+* PP 6.18 p. 673
 
