@@ -2,20 +2,31 @@
 
 import sys, re, os, mimetypes, argparse, requests
 
-# -f <name of file> translates and assembles file
-# -txl transform gcc output to x86prime
-# -asm assemble x86prime into byte stream
-# -list list (transformed and/or assembled) program
-# -show show each simulation step (requires -run)
-# -tracefile <name of file> create a trace file for later verification (requires -run)
-# -run <name of function> starts simulation at indicated function (requires -asm)
-
 parser = argparse.ArgumentParser(description='Compiles a C program into a gcc output x86_64.')
 
 parser.add_argument('-o', dest='output',
                     help='Write output to this file')
+parser.add_argument('-S', dest='ass', action='store_const',
+                    const=True, default=False,
+                    help='')
+parser.add_argument('-Og', dest='optG', action='store_const',
+                    const=True, default=False,
+                    help='')
+parser.add_argument('-pedantic', dest='pedantic', action='store_const',
+                    const=True, default=False,
+                    help='')
+parser.add_argument('-Winline', dest='Winline', action='store_const',
+                    const=True, default=False,
+                    help='')
+parser.add_argument('-Wextra', dest='Wextra', action='store_const',
+                    const=True, default=False,
+                    help='')
+parser.add_argument('-Wall', dest='Wall', action='store_const',
+                    const=True, default=False,
+                    help='')
 parser.add_argument('file', metavar='C-file',
                     help='translates and assembles file')
+
 
 args = parser.parse_args()
 
@@ -37,7 +48,7 @@ file.close()
 # x86prime Online location
 URL = "http://topps.diku.dk/compsys/gcc.php"
 # defining a params dict for the parameters to be sent to the API
-DATA = {'file':args.fileCont}
+DATA = {'file':args.fileCont, "Wall":args.Wall, "Wextra":args.Wextra, "Winline":args.Winline, "pedantic":args.pedantic}
 # sending get request and saving the response as response object
 r = requests.post(url = URL, data = DATA)
 
@@ -47,14 +58,19 @@ runid = r.text
 
 error = requests.get(url = URLDIR+runid+".error")
 
+if args.output == None:
+  outname = args.file[:-2] + ".s"
+else:
+  outname = args.output
+
 if error.text != "":
   print(error.text)
   exit()
 else:
   assembler = requests.get(url = URLDIR+runid+".s")
-  if args.output != None:
-    file = open(args.output, 'w')
-    args.fileCont = file.write(assembler.text)
-    file.close()
-  else:
-    print(assembler.text)
+  # if args.output != None:
+  file = open(outname, 'w')
+  args.fileCont = file.write(assembler.text)
+  file.close()
+  # else:
+  #   print(assembler.text)
