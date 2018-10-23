@@ -1,6 +1,6 @@
 # Course Description
 
-This course is a general introduction to computer systems. You will learn how computers works at a basic but fundamental level and how this reflects to the programs that you write. We will cover topics from Machine architecture, Operating Systems, Computer Networks, and Encryption. We will also introduce you to the C programming language, which will be used throughout the course.
+This course is a general introduction to computer systems. You will learn how computers works at a basic but fundamental level and how this reflects to the programs that you write. We will cover topics from Machine architecture, Operating Systems, Computer Networks, and basic Security. We will also introduce you to the C programming language, which will be used throughout the course.
 
 ## Overall outline
 
@@ -14,6 +14,9 @@ This course is a general introduction to computer systems. You will learn how co
  * Week 1-2: Computer networks cont. and encryption
  * Week 3: Exam preparation and question hour
  * Week 4: 4 hour written exam (Wed, Jan 23)
+
+### Teaching in Block 1 exam period
+Be aware that CompSys is a semester course, which means that we will be teaching (and have normal exercise and assignments) throughout the exam period (weeks 44 and 45) of Block 1.
 
 ## Lectures
 
