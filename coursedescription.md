@@ -138,15 +138,6 @@ On most Fridays from 14 to 16 there will be study cafés in which you can get he
 
 BOH is (and KR will be) available at Academic Books at Panum (http://www.academicbooks.dk/) and Polyteknisk Boghandel at Biocenteret (http://www.polyteknisk.dk/).
 
-## Exam
-
-The exam is a written 4-hour exam and will be held on Wednesday Jan 23.
-
-The course syllabus is the exercises and reading material.
-
-We will later publish example sets based on the previous exam iteration.
-
-
 ## Assignment
 
 There are 8 assignment in total during the course with deadline roughly every second week with the following deadlines.
@@ -168,6 +159,9 @@ The assignments will be graded with points from 0 to 4 and it is not possible to
 
 Assignments are made to be solved in groups of preferably three students, but groups of two active students will also do. We strongly encourage not to work alone. Groups cannot be larger than three students. Each Group must make their own solutions and cannot share implementations and report with other. You can discuss material and ideas.
 
+### Feedback
+Feedback to assignments will be given by TAs on the course. It will be given written and can be expected about two weeks after the hand-in. Feedback will focus on what could be approved in the assignment relating to both technical implementations, and report structure and material. The feedback may thus be useful for later assignment. Feedback will not give a direct justification of the evaluation in number of points.
+
 ## Exam qualification
 
 To qualify for the exam you are required to achieve at least 50 % of the total number of points in the assignments. A0 and A1 is in total considered the same size as the following assignments: this means that points given in A0 is weighted 1/3 while A1 is weighted 2/3.
@@ -184,3 +178,13 @@ Mapping of topics to assignments:
 
 The rule about 40 % of points for assignments in each topic, is included to make sure that you will uphold the learning goals for the course. We will teach you about many different abstractions and you should learn something about all of them. Without this rule you could attend the exam without e.g. learning anything about computer networks by getting enough points in the beginning of the course. The 40 % is chosen as it should be "easier" than the general rule of 50 %; it will therefore be set to 3 of the possible 8 points.
 
+
+## Exam
+
+The exam is a written 4-hour exam and will be held on Wednesday Jan 23.
+
+The course syllabus is the exercises and reading material.
+
+We will later publish example sets based on the previous exam iteration.
+
+It will be possible to get limited feedback on the exam performance.
