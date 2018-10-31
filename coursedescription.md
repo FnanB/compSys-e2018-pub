@@ -109,7 +109,8 @@ Room allocation for exercises will be as follows.
  * DIKU, No further explanation needed
  * HCØ, C103, https://www.fukbh.dk/media/9675696/hco_svalegang.jpg
  * Rockefeller komplekset, Juliane Maries Vej 26-36, https://www.fukbh.dk/media/7145122/http___cms_ku_dk_nat-sites_nbi-sites_for_ansatte_bygningsdrift_tegning_uv_lok_fritekstboks_alle_tre_adresser2.pdf
- * Zoo, Zoologisk Museum, Universitetsparken 15
+ * Zoo, Zoologisk Museum, Universitetsparken 15, https://www1.bio.ku.dk/om/lokaleoversigter/park/
+   * Rooms are in Building 3, that has entrance in the yard beside AKB with Cafeen?, https://bio2.science.ku.dk/cms/lokaleoversigt/up15.pdf
 
 (For some reason, it is easier to find maps with Folkeuniversitet than KU.)
 
