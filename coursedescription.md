@@ -24,7 +24,7 @@ Be aware that CompSys is a semester course, which means that we will be teaching
  * Wednesdays at 13-15 in St. UP1, DIKU
    * Except week 47, where it is in HCØ Aud 4 (due to Matematikrevyen)
    * Except week 48, where it is from 15-17 in AKB Aud 1 (due to Biorevyen)
- * Instructors: Michael Kirkedal Thomsen (instructor-in-charge), Finn Schirmer Andersen, Troels Henriksen, and Vivek Shan
+ * Instructors: Michael Kirkedal Thomsen (instructor-in-charge), Finn Schirmer Andersen, Troels Henriksen, and Vivek Shah
 
 ## Exercises
 
