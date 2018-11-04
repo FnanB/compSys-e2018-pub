@@ -54,15 +54,15 @@ This course schedule is tentative and will be updated.
 |      | 12 Dec       |              13-15 | CN    | Vivek    | Transport layer: Principles of Reliable Data Transfer + TCP                   |                               |
 |      | 14 Dec       |              14-16 | Cafe  |          |                                                                               |                               |
 |      | 16 Dec       |                    |       |          | A6 handin                                                                     |                               |
-|   51 | 17 Dec       |              15-17 | Enc   | Vivek    | Network layer                                                                 |                               |
-|      | 19 Dec       |              13-15 | Enc   | Vivek    | Network layer                                                                 |                               |
+|   51 | 17 Dec       |              15-17 | CN    | Vivek    | Network layer                                                                 |                               |
+|      | 19 Dec       |              13-15 | CN    | Vivek    | Network layer                                                                 |                               |
 |   52 |              |                    |       |          | Christmas vacation - No lectures                                              |                               |
 |    1 | 04 Jan       |              14-16 | Cafe  |          |                                                                               |                               |
 |      | 06 Jan       |                    |       |          | A7 handin                                                                     |                               |
-|    2 | 07 Jan       |              15-17 | CN    | Michael  | Introduction to encryption                                                    |                               |
-|      | 09 Jan       |              13-15 | CN    | Michael  | Encryption on the network                                                     |                               |
+|    2 | 07 Jan       |              15-17 | Enc   | Michael  | Introduction to encryption                                                    |                               |
+|      | 09 Jan       |              13-15 | Enc   | Michael  | Encryption on the network                                                     |                               |
 |      |              |              15-17 | CN    | Vivek    | Link layer (@ AKB Aud 1)                                                      |                               |
-|    3 | ?            |                    | END   | Everyone | EXAM question session                                                         |                               |
+|    3 | ?            |                    | END   | Everyone | Exam question session, recap and evaluation                                   |                               |
 |    4 | 23 Jan       |                    |       |          | CompSys Exam                                                                  |                               |
 
  - BOH: Bryant, O'Hallaron: Computer Systems: A Programmer's Perspective, 3rd and global edition
