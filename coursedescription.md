@@ -125,9 +125,9 @@ On most Fridays from 14 to 16 there will be study cafés in which you can get he
 | 05 Oct @ 14-16          |
 | 26 Oct @ 14-16          |
 | 09 Nov @ 14-16          |
-| 30 Nov @ 14-16          |
-| 14 Dec @ 14-16          |
-| 04 Jan @ 14-16          |
+| 30 Nov @ 13-15          |
+| 14 Dec @ 13-15          |
+| 04 Jan @ 13-15          |
 
 ## Teaching Material
 
