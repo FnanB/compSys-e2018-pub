@@ -18,6 +18,8 @@ This course is a general introduction to computer systems. You will learn how co
 ### Teaching in Block 1 exam period
 Be aware that CompSys is a semester course, which means that we will be teaching (and have normal exercise and assignments) throughout the exam period (weeks 44 and 45) of Block 1.
 
+<!-- Udvides, skriv noget om assignment deadline og vores forventning til studerendes indsats -->
+
 ## Lectures
 
  * Mondays at 15-17 in Aud 1, HCØ
@@ -79,7 +81,7 @@ Room allocation for exercises will be as follows.
    * Wed @ Seminar B, AKB --  (Weeks 50-51)
  * Jeppe Werner Laursen
    * Mon @ RF085, Rockefeller komplekset
-   * Wed @ 1-0-30, DIKU
+   * Fre @ A102, HCØ
  * Kristian Bøjer Andreasen
    * Mon @ Kursussal 4A, Zoo
    * Wed @ A106, HCØ -- (Weeks 47-49 and 1-3)
@@ -94,7 +96,7 @@ Room allocation for exercises will be as follows.
    * Wed @ Seminar A, AKB --  (Weeks 50-51)
  * Minh Duc Tran
    * Mon @ RF086, Rockefeller komplekset
-   * Wed @ A110, HCØ
+   * Fre @ A101, HCØ
  * Troels Korreman Nielsen
    * Mon @ RF061, Rockefeller komplekset
    * Wed @ 1-0-26, DIKU
