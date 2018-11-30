@@ -1,6 +1,8 @@
 # Exercises for Wednesday Dec 05, 2018
 
-## Today you need to read and understand the code snippets for network programming in BOH. Some of the code snippets have been covered previously (rio functions) and some (socket interface) will be covered in the lecture today. 
+## Socket Programming Preparatory Session
+
+Today you need to read and understand the code snippets for network programming in BOH. Some of the code snippets have been covered previously (rio functions) and some (socket interface) will be covered in the lecture today. 
 
 * Refresh your understanding of rio functions which were covered earlier in the course
   * rio_readn, rio_writen (Fig 10.4 BOH page 935)
