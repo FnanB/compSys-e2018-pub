@@ -13,5 +13,5 @@ The following exercises relate to Chapter 1 in Kurose and Ross on the topic "Int
 
 We will be using the packet sniffer tool Wireshark to visualize the networking protocols in action.
 
-* Do the following [Wireshark labs](https://www-net.cs.umass.edu/wireshark-labs/) on "Getting Started". 
+* Do the [Wireshark lab](https://www-net.cs.umass.edu/wireshark-labs/) on "Getting Started". 
 
