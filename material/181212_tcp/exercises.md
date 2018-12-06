@@ -8,8 +8,6 @@
 * P21
 * P25
 
-(Exercise numbers are identical for Kurose and Ross book sixth and seventh editions in Chapter 2)
-
 ## Wireshark lab 
 
 * Do the [Wireshark labs](https://www-net.cs.umass.edu/wireshark-labs/) on "DNS". 
