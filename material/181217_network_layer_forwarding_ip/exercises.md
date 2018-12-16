@@ -10,5 +10,5 @@
 
 ## Wireshark lab 
 
-* Do the [Wireshark labs](https://www-net.cs.umass.edu/wireshark-labs/) on "TCP". 
+* Do the [Wireshark lab](https://www-net.cs.umass.edu/wireshark-labs/) on "TCP". 
 
