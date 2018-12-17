@@ -1,4 +1,4 @@
-# Exercises for Monday, Dec 20 2017
+# Exercises for Monday, Dec 19 2018
 
 ## Exercises from Chapter 3 of Kurose and Ross on "Transport Layer"
 
@@ -11,7 +11,9 @@
 * P8
 * P14
   
-## Wireshark lab 
+## Exercises from Chapter 5 of Kurose and Ross on "Network Layer: Control Plane"
 
-* Do the [Wireshark labs](https://www-net.cs.umass.edu/wireshark-labs/) on "IP" and "DHCP".
+* We will be looking at routing algorithms in today's lecture. The link state routing algorithm uses Dijkstra's shortest path algorithm that you have studied previously in your algorithms course. The following exercises allow you to recap the algorithm.
+  * P3
+  * P4 (Optional)
 
