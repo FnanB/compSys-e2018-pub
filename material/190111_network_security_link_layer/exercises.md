@@ -7,3 +7,10 @@
   * P5
 * P14
 * P15
+
+## Security
+* Exercises from Chapter 8 pp 696-697
+  * P13
+  * P15
+  * P17
+* Wireshark SSL lab: https://www-net.cs.umass.edu/wireshark-labs/
