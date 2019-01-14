@@ -169,7 +169,7 @@ Feedback to assignments will be given by TAs on the course. It will be given wri
 
 To qualify for the exam you are required to achieve at least 50 % of the total number of points in the assignments. A0 and A1 is in total considered the same size as the following assignments: this means that points given in A0 is weighted 1/3 while A1 is weighted 2/3.
 
-Furthermore, we will require that you a reasonable understanding of all parts (ARK, OS, CN) of the assignments. This is firstly interpreted as achieving points at least 40 % points in each the of topics. To optimise your understanding of the course, and since all assignments are in the syllabus, we encourage you to work with and hand in all sets.
+Furthermore, we will require that you show a reasonable understanding of all parts (ARK, OS, CN) of the assignments. This is firstly interpreted as achieving points at least 40 % points in each the of topics. To optimise your understanding of the course, and since all assignments are in the syllabus, we encourage you to work with and hand in all sets.
 
 Mapping of topics to assignments:
 
