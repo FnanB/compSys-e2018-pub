@@ -4,6 +4,7 @@
 set -e
 
 echo "Generating a slides directory.."
+
 mkdir -p slides
 rm -f slides/*
 
@@ -12,7 +13,6 @@ for f in *; do
   cd $f
   for s in *.pdf; do
     if [[ $s != "*.pdf" ]]; then
-      echo $s
       if [[ $s == "slides.pdf" ]]; then
         ln $s ../../slides/${f}.pdf
       else
